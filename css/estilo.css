@@ -1,0 +1,64 @@
+/* Formatação CSS */
+
+/* Cor de fundo para o corpo do HTML 
+	Caso a imagem não for carregada, a cor de fundo irá aparecer, por isso utilizar cor e a url da imagem
+	font foi utilizado um tamanho para a fonte e o tipo de fonte
+*/
+
+/* tag do HTML quando estilizado em CSS é apenas o nome da tag */
+body {
+	background: #d2d2c1 url('img/fundo.png');
+	font: 16px Arial, Helvetica, sans-serif;
+}
+
+/* quando é id no HTML aqui no CSS utiliza # na frente */
+/* id principal */
+#principal {
+	width: 900px; 		   /* largura */
+}
+
+/* id menu - cor de fundo */
+#menu {
+	background: #c5c5b2;
+	padding: 18px;
+}
+
+/* id conteudo - colocando uma cor de fundo */
+#conteudo {
+	background: #e8e8d9;
+	padding: 10px;
+}
+
+/* id reodape - centralizando o rodápé */
+#rodape {
+	text-align: center;
+}
+
+/* class centralizar - centralizando o texto */
+.centralizar {
+	text-align: center;
+}
+
+/* class img-campanha - borda da imagem */
+.img-campanha{
+	border: 10px solid #c3c3ae;
+}
+
+/* tag a - hyperlink 
+Cor do texto
+Decoração do texto: sem
+font
+
+*/
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+/* tag h1 - título - cor e tamanho da fonte */
+h1 {
+	color: #828271;
+	font-size: 1.2em;
+}
