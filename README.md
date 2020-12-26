@@ -1,4 +1,5 @@
-# pageweb
-Página Web Pessoal
+# Personal Web Page
 
-Neste projeto foi utilizado as linguagem CSS e HTML.
+* Project created in the course: personal web page
+* Programming Language: HTML and CSS
+* IDE: Sublime Text 3
